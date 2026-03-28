@@ -1,1 +1,1 @@
-# spirea-website
+# Spirea

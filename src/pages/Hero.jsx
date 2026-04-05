@@ -6,7 +6,7 @@ import {
 export const Hero = () => {
   return (
     <div
-      className="h-screen w-screen pt-0"
+      className="h-screen w-screen pt-0 p-4"
       style={{
         backgroundImage: `url('${process.env.PUBLIC_URL}/hero-background.png')`,
         backgroundSize: "cover",
@@ -27,8 +27,8 @@ export const Hero = () => {
           }}
         >
           <div>
-            <h1 className="text-4xl">Spirea</h1>
-            <h2>PLATFORM</h2>
+            <h1 className="text-2xl sm:text-4xl">Spirea</h1>
+            <h2 className="text-sm sm:text-xl">PLATFORM</h2>
           </div>
         </div>
         <div className="flex gap-4">
@@ -38,7 +38,7 @@ export const Hero = () => {
           <p>•</p>
           <p>Distributed</p>
         </div>
-        <div className="mt-8 flex gap-4 h-12">
+        <div className="mt-8 flex gap-4 h-10 sm:h-12 text-sm sm:text-xl">
           <PrimaryButton>Explore Prototype V1  →</PrimaryButton>
           <SecondaryButton>Strategic Application  →</SecondaryButton>
         </div>

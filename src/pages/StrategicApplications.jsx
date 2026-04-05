@@ -8,9 +8,9 @@ export const StrategicApplications = () => {
         backgroundPosition: "center"
       }}
     >
-      <div className="flex flex-col items-center justify-center gap-12 max-w-[80rem]">
+      <div className="flex flex-col items-center justify-center gap-12 max-w-[80rem] mt-32 md:mt-0">
         <div className="flex flex-col gap-4">
-          <h1 className="text-4xl mt-32 md:mt-0">Strategic Applications</h1>
+          <h1 className="text-4xl">Strategic Applications</h1>
           <h4>Scalable infrastructure systems designed for resilience, adaptability, and rapid deployment across diverse environments.</h4>
         </div>
         <div className="flex flex-col gap-4">

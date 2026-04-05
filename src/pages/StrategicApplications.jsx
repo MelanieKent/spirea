@@ -15,24 +15,24 @@ export const StrategicApplications = () => {
         </div>
         <div className="flex flex-col gap-4">
           <div className="flex items-center justify-center gap-4">
-            <hr className="border-t border-[#829276] opacity-40 w-24"></hr>
-            <h4 className="text-2xl">3 Core Pillars</h4>
-            <hr className="border-t border-[#829276] opacity-40 w-24"></hr>
+            <hr className="border-t border-[#829276] opacity-40 w-full"></hr>
+            <h4 className="text-2xl text-nowrap">3 Core Pillars</h4>
+            <hr className="border-t border-[#829276] opacity-40 w-full"></hr>
           </div>
-          <div className="grid grid-cols-3 gap-4">
-            <div className="flex flex-col justify-center items-center gap-2 w-80 bg-[#FAF5F3] rounded-lg hover:bg-[#F1EBE6] p-8">
+          <div className="grid grid-cols-3 gap-6">
+            <div className="flex flex-col justify-center items-center gap-2 w-80 bg-[#FAF5F3] rounded-lg hover:bg-[#F1EBE6] p-8 shadow-lg">
               <img className="w-10" src={`${process.env.PUBLIC_URL}/resilient-icon.png`}/>
               <h6>Resilient Infrastructure Systems</h6>
               <hr className="border-t border-[#829276] opacity-40 w-full"></hr>
               <p className="text-base">Designed for performance in demanding climates and conditions.</p>
             </div>
-            <div className="flex flex-col justify-center items-center gap-2 w-80 bg-[#FAF5F3] rounded-lg hover:bg-[#F1EBE6] p-8">
+            <div className="flex flex-col justify-center items-center gap-2 w-80 bg-[#FAF5F3] rounded-lg hover:bg-[#F1EBE6] p-8 shadow-lg">
               <img className="w-10" src={`${process.env.PUBLIC_URL}/rapid-icon.png`}/>
               <h6>Rapid Deployment Frameworks</h6>
               <hr className="border-t border-[#829276] opacity-40 w-full"></hr>
               <p className="text-base">Enabling faster construction cycles through integrated production and modular assembly.</p>             
             </div>
-            <div className="flex flex-col justify-center items-center gap-2 w-80 bg-[#FAF5F3] rounded-lg hover:bg-[#F1EBE6] p-8">
+            <div className="flex flex-col justify-center items-center gap-2 w-80 bg-[#FAF5F3] rounded-lg hover:bg-[#F1EBE6] p-8 shadow-lg">
               <img className="w-10" src={`${process.env.PUBLIC_URL}/remote-icon.png`}/>
               <h6>Remote & Distributed Development</h6>
               <hr className="border-t border-[#829276] opacity-40 w-full"></hr>

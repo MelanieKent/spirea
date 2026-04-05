@@ -15,7 +15,7 @@ export const Hero = () => {
     >
       <div className="h-full flex flex-col items-center justify-center text-xl">
         <h1 className="text-4xl">Integrated Platform for High-Resilience Infrastructure</h1>
-        <h4 className="mt-4 mb-14">A construction tech platform integrating additive manufacturing, bio-based materials, and modular system logic.</h4>
+        <h4 className="mt-4 mb-14">A construction tech platform integrating additive manufacturing bio-based materials, and modular system logic.</h4>
         <div
           className="flex items-center justify-center"
           style={{

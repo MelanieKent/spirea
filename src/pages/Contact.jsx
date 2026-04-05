@@ -1,7 +1,7 @@
 export const Contact = () => {
   return (
     <div
-      className="h-screen w-screen pt-0 flex flex-col items-center justify-center gap-32 text-xl p-4"
+      className="min-h-screen w-screen pt-0 flex flex-col items-center justify-center gap-32 text-xl p-4"
       style={{
         backgroundImage: `url('${process.env.PUBLIC_URL}/contact-background.png')`,
         backgroundSize: "cover",

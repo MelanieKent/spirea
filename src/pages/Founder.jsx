@@ -8,10 +8,10 @@ export const Founder = () => {
         backgroundPosition: "center"
       }}
     >
-      <div className="grid grid-cols-1 md:grid-cols-[2fr_1fr] max-w-[80rem] text-left">
+      <div className="grid grid-cols-1 md:grid-cols-[2fr_1fr] max-w-[80rem] text-left mt-32 md:mt-0">
         <div className="flex flex-col gap-6">
           <div>
-            <h1 className="text-4xl mt-32 md:mt-0">
+            <h1 className="text-4xl">
               Julia Liu
             </h1>
             <p>Founder</p>

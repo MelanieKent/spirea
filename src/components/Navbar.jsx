@@ -37,9 +37,9 @@ export const Navbar = () => {
           className="xl:hidden flex flex-col gap-1"
           onClick={() => setOpen(true)}
         >
-          <span className="w-6 h-[2px] bg-black"></span>
-          <span className="w-6 h-[2px] bg-black"></span>
-          <span className="w-6 h-[2px] bg-black"></span>
+          <span className="w-6 h-[2px] bg-[#404E35]"></span>
+          <span className="w-6 h-[2px] bg-[#404E35]"></span>
+          <span className="w-6 h-[2px] bg-[#404E35]"></span>
         </button>
       </div>
       {open && (

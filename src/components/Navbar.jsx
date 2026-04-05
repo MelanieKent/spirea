@@ -10,7 +10,7 @@ export const Navbar = () => {
       <div className="flex justify-center items-center hover:cursor-pointer">
         <img
           src={`${process.env.PUBLIC_URL}/logo-transparent.png`}
-          className="w-12"
+          className="w-11"
         />
         <NavLink className="mx-2" to="/">
           <p className="text-3xl">Spirea</p>

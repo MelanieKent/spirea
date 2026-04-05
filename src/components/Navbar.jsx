@@ -12,18 +12,18 @@ export const Navbar = () => {
 
   return (
     <>
-      <div className="fixed top-0 left-0 w-full flex justify-between px-6 md:px-14 py-6 text-lg backdrop-blur-sm z-[9999]">
+      <div className="fixed top-0 left-0 w-full flex justify-between items-center px-6 xl:px-14 py-6 text-lg backdrop-blur-sm z-[9999]">
         <div className="flex items-center hover:cursor-pointer">
           <img
-            className="w-10 md:w-11"
+            className="w-10 xl:w-11"
             src={`${process.env.PUBLIC_URL}/logo-transparent.png`}
           />
           <NavLink className="mx-2" to="/">
-            <p className="text-2xl md:text-3xl">Spirea</p>
-            <p className="text-xs md:text-sm tracking-wide">PLATFORM</p>
+            <p className="text-2xl xl:text-3xl">Spirea</p>
+            <p className="text-xs xl:text-sm tracking-wide">PLATFORM</p>
           </NavLink>
         </div>
-        <div className="hidden md:flex items-center gap-16">
+        <div className="hidden xl:flex items-center gap-16">
           <NavLink to="/" className={linkClass}>Home</NavLink>
           <NavLink to="/about" className={linkClass}>About</NavLink>
           <NavLink to="/prototype-v1" className={linkClass}>Prototype V1</NavLink>
@@ -34,7 +34,7 @@ export const Navbar = () => {
           </NavLink>
         </div>
         <button
-          className="md:hidden flex flex-col gap-1"
+          className="xl:hidden flex flex-col gap-1"
           onClick={() => setOpen(true)}
         >
           <span className="w-6 h-[2px] bg-black"></span>
@@ -49,20 +49,19 @@ export const Navbar = () => {
         />
       )}
       <div
-        className={`fixed top-0 right-0 h-full w-[75%] max-w-sm bg-white z-[9999] transform transition-transform duration-300 ${
+        className={`fixed top-0 right-0 h-full w-[75%] max-w-sm bg-white z-[9999] transform transition-transform duration-300 text-xl ${
           open ? "translate-x-0" : "translate-x-full"
         }`}
       >
         <div className="flex justify-end p-6">
           <button onClick={() => setOpen(false)}>✕</button>
         </div>
-        <div className="flex flex-col items-start gap-6 px-8">
+        <div className="flex flex-col items-start gap-8 px-8 text-xl">
           <NavLink to="/" className={linkClass} onClick={() => setOpen(false)}>Home</NavLink>
           <NavLink to="/about" className={linkClass} onClick={() => setOpen(false)}>About</NavLink>
           <NavLink to="/prototype-v1" className={linkClass} onClick={() => setOpen(false)}>Prototype V1</NavLink>
           <NavLink to="/strategic-applications" className={linkClass} onClick={() => setOpen(false)}>Strategic Applications</NavLink>
           <NavLink to="/founder" className={linkClass} onClick={() => setOpen(false)}>Founder</NavLink>
-
           <NavLink to="/contact-us" onClick={() => setOpen(false)}>
             <PrimaryButton>Contact Us</PrimaryButton>
           </NavLink>

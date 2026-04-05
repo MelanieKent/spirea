@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import { Navbar } from './components/Navbar';
 import { Hero } from './pages/Hero';
@@ -9,6 +10,24 @@ import { Contact } from './pages/Contact';
 import './App.css';
 
 function App() {
+  useEffect(() => {
+    const images = [
+      '/hero-background-founder.png',
+      '/about-background-p1.png',
+      '/about-background-p2.png',
+      '/prototype-v1-background-p1.png',
+      '/prototype-v1-background-p2.png',
+      '/strategic-applications-background.png',
+      '/founder-background.png',
+      '/contact-background.png'
+    ];
+
+    images.forEach((src) => {
+      const img = new Image();
+      img.src = src;
+    });
+  }, []);
+
   return (
     <div className="app">
       <Navbar />

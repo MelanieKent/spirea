@@ -1,7 +1,7 @@
 export const Contact = () => {
   return (
     <div
-      className="min-h-screen w-screen pt-0 flex flex-col items-center justify-center gap-32 text-xl p-4"
+      className="min-h-screen w-screen flex flex-col items-center justify-center gap-32 px-4 py-32"
       style={{
         backgroundImage: `url('${process.env.PUBLIC_URL}/contact-background.png')`,
         backgroundSize: "cover",
@@ -9,7 +9,7 @@ export const Contact = () => {
       }}
     >
       <div className="flex flex-col gap-8">
-        <h1 className="text-4xl">
+        <h1 className="text-3xl sm:text-4xl">
           Contact
         </h1>
         <p className>We welcome inquiries across collaboration, research, and strategic development.</p>

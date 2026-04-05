@@ -2,17 +2,17 @@ export const PrototypeV1 = () => {
   return (
     <>
       <div
-        className="min-h-screen w-screen pt-0 flex flex-col items-center justify-center text-xl text-left p-4"
+        className="min-h-screen w-screen flex flex-col items-center justify-center text-left px-4 py-32"
         style={{
           backgroundImage: `url('${process.env.PUBLIC_URL}/prototype-v1-background-p1.png')`,
           backgroundSize: "cover",
           backgroundPosition: "center"
         }}
       >
-        <div className="flex flex-col items-start justify-center md:gap-44 mt-32 md:mt-0">
+        <div className="flex flex-col items-start justify-center md:gap-44">
           <div className="flex flex-col gap-6">
             <h4>PROTOTYPE V1</h4>
-            <h1 className="text-4xl">Integrated Wall System <br />for Modular, Low-Carbon Construction</h1>
+            <h1 className="text-3xl sm:text-4xl">Integrated Wall System <br />for Modular, Low-Carbon Construction</h1>
             <div className="flex flex-col gap-4 max-w-[40rem]">
               <p>Prototype V1 is an integrated wall system combining additive construction, bio-based insulation, and modular assembly within a unified construction logic.</p>
               <p>The system is designed to enable scalable production, deliver strong climate performance, and support multiple deployment methods.</p>
@@ -35,7 +35,7 @@ export const PrototypeV1 = () => {
                 </div>
               </div>
             </div>
-            <p className="min-width">Prototype V1 marks a step toward a scalable construction platform — <br />integrating material innovation, controlled production, and modular deployment.</p>
+            <p className="min-width text-center sm:text-left">Prototype V1 marks a step toward a scalable construction platform — <br />integrating material innovation, controlled production, and modular deployment.</p>
           </div>
         </div>
       </div>

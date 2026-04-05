@@ -1,17 +1,17 @@
 export const Founder = () => {
   return (
     <div
-      className="min-h-screen w-screen pt-0 flex flex-col items-center justify-center text-xl gap-48 p-4"
+      className="min-h-screen w-screen flex flex-col items-center justify-center gap-12 sm:gap-48 px-4 py-32"
       style={{
         backgroundImage: `url('${process.env.PUBLIC_URL}/founder-background.png')`,
         backgroundSize: "cover",
         backgroundPosition: "center"
       }}
     >
-      <div className="grid grid-cols-1 md:grid-cols-[2fr_1fr] max-w-[80rem] text-left mt-32 md:mt-0">
+      <div className="grid grid-cols-1 md:grid-cols-[2fr_1fr] max-w-[80rem] text-left">
         <div className="flex flex-col gap-6">
           <div>
-            <h1 className="text-4xl">
+            <h1 className="text-3xl sm:text-4xl">
               Julia Liu
             </h1>
             <p>Founder</p>

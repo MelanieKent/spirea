@@ -1,16 +1,16 @@
 export const StrategicApplications = () => {
   return (
     <div
-      className="min-h-screen w-screen pt-0 flex flex-col items-center justify-center text-xl p-4"
+      className="min-h-screen w-screen flex flex-col items-center justify-center px-4 py-32"
       style={{
         backgroundImage: `url('${process.env.PUBLIC_URL}/strategic-applications-background.png')`,
         backgroundSize: "cover",
         backgroundPosition: "center"
       }}
     >
-      <div className="flex flex-col items-center justify-center gap-12 max-w-[80rem] mt-32 md:mt-0">
+      <div className="flex flex-col items-center justify-center gap-12 max-w-[80rem]">
         <div className="flex flex-col gap-4">
-          <h1 className="text-4xl">Strategic Applications</h1>
+          <h1 className="text-3xl sm:text-4xl">Strategic Applications</h1>
           <h4>Scalable infrastructure systems designed for resilience, adaptability, and rapid deployment across diverse environments.</h4>
         </div>
         <div className="flex flex-col gap-4">

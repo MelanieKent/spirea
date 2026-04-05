@@ -49,14 +49,14 @@ export const Navbar = () => {
         />
       )}
       <div
-        className={`fixed top-0 right-0 h-full w-[75%] max-w-sm bg-white z-[9999] transform transition-transform duration-300 text-xl ${
+        className={`fixed top-0 right-0 h-full w-[75%] max-w-sm bg-white z-[9999] transform transition-transform duration-300 ${
           open ? "translate-x-0" : "translate-x-full"
         }`}
       >
         <div className="flex justify-end p-6">
           <button onClick={() => setOpen(false)}>✕</button>
         </div>
-        <div className="flex flex-col items-start gap-8 px-8 text-xl">
+        <div className="flex flex-col items-start gap-8 px-8">
           <NavLink to="/" className={linkClass} onClick={() => setOpen(false)}>Home</NavLink>
           <NavLink to="/about" className={linkClass} onClick={() => setOpen(false)}>About</NavLink>
           <NavLink to="/prototype-v1" className={linkClass} onClick={() => setOpen(false)}>Prototype V1</NavLink>

@@ -6,15 +6,15 @@ import {
 export const Hero = () => {
   return (
     <div
-      className="h-screen w-screen pt-0 p-4"
+      className="min-h-screen w-screen px-4 py-32"
       style={{
         backgroundImage: `url('${process.env.PUBLIC_URL}/hero-background.png')`,
         backgroundSize: "cover",
         backgroundPosition: "center"
       }}
     >
-      <div className="h-full flex flex-col items-center justify-center text-xl">
-        <h1 className="text-4xl">Integrated Platform for High-Resilience Infrastructure</h1>
+      <div className="h-full flex flex-col items-center justify-center">
+        <h1 className="text-3xl sm:text-4xl">Integrated Platform for High-Resilience Infrastructure</h1>
         <h4 className="mt-4 mb-14">A construction tech platform integrating additive manufacturing bio-based materials, and modular system logic.</h4>
         <div
           className="flex items-center justify-center"

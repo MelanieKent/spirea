@@ -29,7 +29,7 @@ function App() {
   }, []);
 
   return (
-    <div className="app">
+    <div className="app text-lg sm:text-xl">
       <Navbar />
       <Routes>
         <Route path="/" element={<Hero />} />

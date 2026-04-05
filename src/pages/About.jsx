@@ -20,7 +20,7 @@ export const About = () => {
           </h1>
           <p>Spirea Platform is a construction technology platform integrating modular construction logic, additive manufacturing, and bio-based material systems.</p>
           <p>The platform is designed to enable scalable, resilient, and low-carbon infrastructure across diverse environments - from housing to remote and strategic applications.</p>
-          <div className="mt-8 flex gap-4 h-10 sm:h-12 text-sm sm:text-xl">
+          <div className="mt-8 flex gap-4 h-10 sm:h-12 text-xs sm:text-xl">
             <PrimaryButton>Explore Prototype V1  →</PrimaryButton>
             <SecondaryButton>Strategic Application  →</SecondaryButton>
           </div>

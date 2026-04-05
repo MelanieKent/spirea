@@ -21,15 +21,15 @@ export const PrototypeV1 = () => {
           <div className="flex flex-col gap-8">
             <div className="grid grid-cols-3 gap-6">
               <div className="flex flex-col justify-center items-center gap-2 w-72 bg-[#FAF5F3] rounded-lg hover:bg-[#F1EBE6] p-8 shadow-lg">
-                <img className="w-10" src={`${process.env.PUBLIC_URL}/resilient-icon.png`}/>
+                <img className="w-12" src={`${process.env.PUBLIC_URL}/additive-icon.png`}/>
                 <h6>Additive Structure</h6>
               </div>
               <div className="flex flex-col justify-center items-center gap-2 w-72 bg-[#FAF5F3] rounded-lg hover:bg-[#F1EBE6] p-8 shadow-lg">
-                <img className="w-10" src={`${process.env.PUBLIC_URL}/rapid-icon.png`}/>
+                <img className="w-12" src={`${process.env.PUBLIC_URL}/bio-icon.png`}/>
                 <h6>Bio-Based Insulation</h6>
               </div>
               <div className="flex flex-col justify-center items-center gap-2 w-72 bg-[#FAF5F3] rounded-lg hover:bg-[#F1EBE6] p-8 shadow-lg">
-                <img className="w-10" src={`${process.env.PUBLIC_URL}/remote-icon.png`}/>
+                <img className="w-12" src={`${process.env.PUBLIC_URL}/modular-icon.png`}/>
                 <h6>Modular Assembly</h6>
               </div>
             </div>

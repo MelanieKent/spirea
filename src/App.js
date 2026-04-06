@@ -12,19 +12,21 @@ import './App.css';
 function App() {
   useEffect(() => {
     const images = [
-      '/hero-background-founder.png',
-      '/hero-background-founder-mobile.png',
-      '/about-background-p1.png',
-      '/about-background-p1-mobile.png',
-      '/about-background-p2.png',
-      '/prototype-v1-background-p1.png',
-      '/prototype-v1-background-p1-mobile.png',
-      '/prototype-v1-background-p2.png',
-      '/strategic-applications-background.png',
-      '/strategic-applications-background-mobile.png',
-      '/founder-background.png',
-      '/founder-background-mobile.png',
-      '/contact-background.png'
+      '../public/hero-background-founder.png',
+      '../public/hero-background-founder-mobile.png',
+      '../public/about-background-p1.png',
+      '../public/about-background-p1-mobile.png',
+      '../public/about-background-p2.png',
+      '../public/prototype-v1-background-p1.png',
+      '../public/prototype-v1-background-p1-mobile.png',
+      '../public/prototype-v1-background-p2.png',
+      '../public/strategic-applications-background.png',
+      '../public/strategic-applications-background-mobile.png',
+      '../public/founder-background.png',
+      '../public/founder-background-mobile.png',
+      '../public/contact-background.png',
+      '../public/cycle.png',
+      '../public/headshot.png'
     ];
 
     images.forEach((src) => {

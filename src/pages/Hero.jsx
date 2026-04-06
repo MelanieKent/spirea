@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import {
   PrimaryButton,
   SecondaryButton
@@ -32,8 +33,12 @@ export const Hero = () => {
         <p>Distributed</p>
       </div>
       <div className="mt-8 flex gap-4 h-10 sm:h-12 text-xs sm:text-xl">
-        <PrimaryButton>Explore Prototype V1  →</PrimaryButton>
-        <SecondaryButton>Strategic Application  →</SecondaryButton>
+        <NavLink to="/prototype-v1">
+          <PrimaryButton>Explore Prototype V1  →</PrimaryButton>
+        </NavLink>
+        <NavLink to="/strategic-applications">
+          <SecondaryButton>Strategic Application  →</SecondaryButton>
+        </NavLink>
       </div>
     </div>
   );

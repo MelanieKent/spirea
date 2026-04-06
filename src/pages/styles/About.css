@@ -1,0 +1,11 @@
+.bg-about {
+  background-image: url('../../../public/about-background-p1-mobile.png');
+  background-size: cover;
+  background-position: center;
+}
+
+@media (min-width: 640px) {
+  .bg-about {
+    background-image: url('../../../public/about-background-p1.png');
+  }
+}

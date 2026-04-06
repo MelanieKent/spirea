@@ -2,17 +2,11 @@ import {
   PrimaryButton,
   SecondaryButton
 } from "../components/Button";
+import "./styles/Hero.css"
 
 export const Hero = () => {
   return (
-    <div
-      className="min-h-screen w-screen px-4 py-32 flex flex-col items-center justify-center"
-      style={{
-        backgroundImage: `url('${process.env.PUBLIC_URL}/hero-background.png')`,
-        backgroundSize: "cover",
-        backgroundPosition: "center"
-      }}
-    >
+    <div className="bg-hero min-h-screen w-screen px-4 py-32 flex flex-col items-center justify-center">
       <h1 className="text-3xl sm:text-4xl">Integrated Platform for High-Resilience Infrastructure</h1>
       <h4 className="mt-4 mb-14">A construction tech platform integrating additive manufacturing bio-based materials, and modular system logic.</h4>
       <div

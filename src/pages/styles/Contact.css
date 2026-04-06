@@ -1,0 +1,11 @@
+.bg-contact {
+  background-image: url('/strategic-applications-background-mobile.png');
+  background-size: cover;
+  background-position: center;
+}
+
+@media (min-width: 640px) {
+  .bg-contact {
+    background-image: url('/strategic-applications-background.png');
+  }
+}

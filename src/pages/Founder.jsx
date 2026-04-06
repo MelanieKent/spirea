@@ -1,13 +1,8 @@
+import "./styles/Founder.css"
+
 export const Founder = () => {
   return (
-    <div
-      className="min-h-screen w-screen flex flex-col items-center justify-center gap-12 sm:gap-48 px-4 py-32"
-      style={{
-        backgroundImage: `url('${process.env.PUBLIC_URL}/founder-background.png')`,
-        backgroundSize: "cover",
-        backgroundPosition: "center"
-      }}
-    >
+    <div className="bg-founder min-h-screen w-screen flex flex-col items-center justify-center gap-12 sm:gap-48 px-4 py-32">
       <div className="grid grid-cols-1 md:grid-cols-[2fr_1fr] max-w-[80rem] text-left">
         <div className="flex flex-col gap-6">
           <div>

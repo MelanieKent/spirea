@@ -13,12 +13,17 @@ function App() {
   useEffect(() => {
     const images = [
       '/hero-background-founder.png',
+      '/hero-background-founder-mobile.png',
       '/about-background-p1.png',
+      '/about-background-p1-mobile.png',
       '/about-background-p2.png',
       '/prototype-v1-background-p1.png',
+      '/prototype-v1-background-p1-mobile.png',
       '/prototype-v1-background-p2.png',
       '/strategic-applications-background.png',
+      '/strategic-applications-background-mobile.png',
       '/founder-background.png',
+      '/founder-background-mobile.png',
       '/contact-background.png'
     ];
 

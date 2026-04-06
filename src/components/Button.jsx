@@ -12,7 +12,7 @@ const SecondaryButton = ({
   children
 }) => {
   return (
-    <button className="bg-transparent px-4 py-2 rounded-lg border border-[#546C61] hover:border-[#829276] hover:text-[#829276]">
+    <button className="bg-white/20 backdrop-blur-sm px-4 py-2 rounded-lg border border-[#546C61] hover:border-[#829276] hover:text-[#829276]">
       {children}
     </button>
   )

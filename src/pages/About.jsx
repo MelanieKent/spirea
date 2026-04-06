@@ -2,18 +2,12 @@ import {
   PrimaryButton,
   SecondaryButton
 } from "../components/Button";
+import "./styles/About.css"
 
 export const About = () => {
   return (
     <>
-      <div
-        className="min-h-[90vh] w-screen flex flex-col items-center justify-center px-4 py-32"
-        style={{
-          backgroundImage: `url('${process.env.PUBLIC_URL}/about-background-p1.png')`,
-          backgroundSize: "cover",
-          backgroundPosition: "center"
-        }}
-      >
+      <div className="bg-about min-h-[90vh] w-screen flex flex-col items-center justify-center px-4 py-32">
         <div className="text-left flex flex-col gap-8 max-w-[60rem]">
           <h1 className="text-3xl sm:text-4xl">
             A Scalable Construction Platform for Modular, Low-Carbon Infrastructure

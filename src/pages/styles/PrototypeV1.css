@@ -1,0 +1,11 @@
+.bg-prototype-v1 {
+  background-image: url('../../../public/prototype-v1-background-p1-mobile.png');
+  background-size: cover;
+  background-position: center;
+}
+
+@media (min-width: 640px) {
+  .bg-prototype-v1 {
+    background-image: url('../../../public/prototype-v1-background-p1.png');
+  }
+}

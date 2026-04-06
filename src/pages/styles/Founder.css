@@ -1,0 +1,11 @@
+.bg-founder {
+  background-image: url('../../../public/founder-background-mobile.png');
+  background-size: cover;
+  background-position: center;
+}
+
+@media (min-width: 640px) {
+  .bg-founder {
+    background-image: url('../../../public/founder-background.png');
+  }
+}

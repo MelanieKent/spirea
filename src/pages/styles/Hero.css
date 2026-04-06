@@ -1,0 +1,11 @@
+.bg-hero {
+  background-image: url('../../../public/hero-background-mobile.png');
+  background-size: cover;
+  background-position: center;
+}
+
+@media (min-width: 640px) {
+  .bg-hero {
+    background-image: url('../../../public/hero-background.png');
+  }
+}

@@ -1,14 +1,9 @@
+import "./styles/PrototypeV1.css"
+
 export const PrototypeV1 = () => {
   return (
     <>
-      <div
-        className="min-h-screen w-screen flex flex-col items-center justify-center text-left px-4 py-32"
-        style={{
-          backgroundImage: `url('${process.env.PUBLIC_URL}/prototype-v1-background-p1.png')`,
-          backgroundSize: "cover",
-          backgroundPosition: "center"
-        }}
-      >
+      <div className="bg-prototype-v1 min-h-screen w-screen flex flex-col items-center justify-center text-left px-4 py-32">
         <div className="flex flex-col items-start justify-center md:gap-44">
           <div className="flex flex-col gap-6">
             <h4>PROTOTYPE V1</h4>

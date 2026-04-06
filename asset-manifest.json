@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.0f44bd9e.css",
+    "main.css": "/static/css/main.1fba5751.css",
     "main.js": "/static/js/main.ccd95260.js",
     "static/js/453.d2aa2877.chunk.js": "/static/js/453.d2aa2877.chunk.js",
     "static/media/prototype-v1-background-p1.png": "/static/media/prototype-v1-background-p1.673f64914e5d74c4eb81.png",
     "static/media/about-background-p1.png": "/static/media/about-background-p1.70c6986e9179204158fb.png",
-    "static/media/strategic-applications-background.png": "/static/media/strategic-applications-background.652e0fd46046897c014a.png",
     "static/media/hero-background.png": "/static/media/hero-background.e38de24362ecbfa58601.png",
+    "static/media/strategic-applications-background-mobile.png": "/static/media/strategic-applications-background-mobile.0cae8604c5e718dc0667.png",
     "static/media/founder-background.png": "/static/media/founder-background.1e7c07350d4773bdf5f4.png",
     "static/media/founder-background-mobile.png": "/static/media/founder-background-mobile.268106b717097074022b.png",
     "static/media/hero-background-mobile.png": "/static/media/hero-background-mobile.6966099777039ded1163.png",
-    "static/media/strategic-applications-background-mobile.png": "/static/media/strategic-applications-background-mobile.2ccbaee28949d428b199.png",
+    "static/media/strategic-applications-background.png": "/static/media/strategic-applications-background.9708231b34f8d506cb89.png",
     "static/media/about-background-p1-mobile.png": "/static/media/about-background-p1-mobile.32ab3842af4bed75e5a7.png",
     "static/media/prototype-v1-background-p1-mobile.png": "/static/media/prototype-v1-background-p1-mobile.1c556c8ec6585098a90c.png",
     "index.html": "/index.html",
-    "main.0f44bd9e.css.map": "/static/css/main.0f44bd9e.css.map",
+    "main.1fba5751.css.map": "/static/css/main.1fba5751.css.map",
     "main.ccd95260.js.map": "/static/js/main.ccd95260.js.map",
     "453.d2aa2877.chunk.js.map": "/static/js/453.d2aa2877.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0f44bd9e.css",
+    "static/css/main.1fba5751.css",
     "static/js/main.ccd95260.js"
   ]
 }

@@ -12,19 +12,7 @@ import './App.css';
 function App() {
   useEffect(() => {
     const images = [
-      '../public/hero-background-founder.png',
-      '../public/hero-background-founder-mobile.png',
-      '../public/about-background-p1.png',
-      '../public/about-background-p1-mobile.png',
-      '../public/about-background-p2.png',
-      '../public/prototype-v1-background-p1.png',
-      '../public/prototype-v1-background-p1-mobile.png',
-      '../public/prototype-v1-background-p2.png',
-      '../public/strategic-applications-background.png',
-      '../public/strategic-applications-background-mobile.png',
-      '../public/founder-background.png',
-      '../public/founder-background-mobile.png',
-      '../public/contact-background.png',
+      '../public/unified-background.png',
       '../public/cycle.png',
       '../public/headshot.png'
     ];

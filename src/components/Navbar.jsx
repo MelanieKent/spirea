@@ -26,9 +26,9 @@ export const Navbar = () => {
         <div className="hidden xl:flex items-center gap-16">
           <NavLink to="/" className={linkClass}>Home</NavLink>
           <NavLink to="/about" className={linkClass}>About</NavLink>
+          <NavLink to="/founder" className={linkClass}>Founder</NavLink>
           <NavLink to="/prototype-v1" className={linkClass}>Prototype V1</NavLink>
           <NavLink to="/strategic-applications" className={linkClass}>Strategic Applications</NavLink>
-          <NavLink to="/founder" className={linkClass}>Founder</NavLink>
           <NavLink to="/contact-us">
             <PrimaryButton>Contact Us</PrimaryButton>
           </NavLink>
@@ -59,9 +59,9 @@ export const Navbar = () => {
         <div className="flex flex-col items-start gap-8 px-8">
           <NavLink to="/" className={linkClass} onClick={() => setOpen(false)}>Home</NavLink>
           <NavLink to="/about" className={linkClass} onClick={() => setOpen(false)}>About</NavLink>
+          <NavLink to="/founder" className={linkClass} onClick={() => setOpen(false)}>Founder</NavLink>
           <NavLink to="/prototype-v1" className={linkClass} onClick={() => setOpen(false)}>Prototype V1</NavLink>
           <NavLink to="/strategic-applications" className={linkClass} onClick={() => setOpen(false)}>Strategic Applications</NavLink>
-          <NavLink to="/founder" className={linkClass} onClick={() => setOpen(false)}>Founder</NavLink>
           <NavLink to="/contact-us" onClick={() => setOpen(false)}>
             <PrimaryButton>Contact Us</PrimaryButton>
           </NavLink>

@@ -1,0 +1,4 @@
+.bg-default {
+  background-image: url('../../../public/unified-background.png');
+  background-size: cover;
+}

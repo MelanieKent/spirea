@@ -3,13 +3,14 @@ import {
   PrimaryButton,
   SecondaryButton
 } from "../components/Button";
-import "./styles/Hero.css"
+import "./styles/Default.css"
 
 export const Hero = () => {
   return (
-    <div className="bg-hero min-h-screen w-screen px-4 py-32 flex flex-col items-center justify-center">
-      <h1 className="text-3xl sm:text-4xl">Integrated Platform for High-Resilience Infrastructure</h1>
-      <h4 className="mt-4 mb-14">A construction tech platform integrating additive manufacturing bio-based materials, and modular system logic.</h4>
+    <div className="bg-default min-h-screen w-screen px-4 py-28 flex flex-col items-center justify-center">
+      <img className="w-screen lg:mb-[-4rem]" src={`${process.env.PUBLIC_URL}/curves.png`} />
+      <h1 className="text-3xl sm:text-4xl max-w-[62rem]">An Integrated Construction Operating System for Scalable, Low-Carbon Infrastructure</h1>
+      <h4 className="mt-4 mb-12 max-w-[58rem]">A system architecture integrating material systems, advanced manufacturing, and modular deployment into unified construction platform.</h4>
       <div
         className="flex items-center justify-center"
         style={{
@@ -25,20 +26,24 @@ export const Hero = () => {
           <h2 className="text-sm sm:text-xl">PLATFORM</h2>
         </div>
       </div>
-      <div className="flex gap-4">
-        <p>Resilient</p>
-        <p>•</p>
-        <p>Rapid</p>
-        <p>•</p>
-        <p>Distributed</p>
-      </div>
-      <div className="mt-8 flex gap-4 h-10 sm:h-12 text-xs sm:text-xl">
-        <NavLink to="/prototype-v1">
-          <PrimaryButton>Explore Prototype V1  →</PrimaryButton>
-        </NavLink>
-        <NavLink to="/strategic-applications">
-          <SecondaryButton>Strategic Application  →</SecondaryButton>
-        </NavLink>
+      <div className="flex flex-col justify-center items-center gap-6">
+        <div className="flex flex-col justify-center items-center gap-2">
+          <p>Realized through Prototype V1 - an integrated wall system</p>
+        </div>
+        <div className="flex gap-2 text-lg">
+          <p>Systemized</p>
+          <p>•</p>
+          <p>Scalable</p>
+          <p>•</p>
+          <p>Low-Carbon</p>
+        </div>
+        <div className="flex gap-4 text-lg">
+          <p>Resilient</p>
+          <p>•</p>
+          <p>Rapid</p>
+          <p>•</p>
+          <p>Distributed</p>
+        </div>
       </div>
     </div>
   );
